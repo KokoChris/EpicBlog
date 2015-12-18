@@ -39,14 +39,23 @@ $navbar-default-bg :black;
               background-color:black;
 }
 
-footer { margin-top: 45px;
+.article-actions{ 
+         border-top: 1px solid #eaeaea;
+         padding-top: 5px;
+}
+.description{
+         margin-top:0;
+}
+
+footer {
+         margin-top: 45px;
          padding-top: 5px;
          border-top: 1px solid #eaeaea;
          color: #777
 }
 
 footer a:hover {
-       color: #222 
+       color: #222; 
  }
 footer small {
       float: left;     
@@ -57,8 +66,7 @@ footer ul {
       list-style:none;
 } 
 
-footer ul li { float: left;
-               margin-left: 15px;
- 
-
- }
+footer ul li { 
+          float: left;
+          margin-left: 15px;
+}
