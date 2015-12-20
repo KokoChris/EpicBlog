@@ -18,7 +18,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate', '~> 3.0.7'
+gem 'bootstrap-will_paginate','0.0.10'
 
 group :test do
   gem 'rspec-rails', '~> 3.0'
