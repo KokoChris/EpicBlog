@@ -50,7 +50,7 @@ class ArticlesController < ApplicationController
       params.require(:article).permit(:title, :description)
     end
     def require_same_user
-      if current_user != @article.user
+      if current_user != @article.user and !current_user.admin?
         flash[:danger] = "You can only edit your own articles"
       end
     end
